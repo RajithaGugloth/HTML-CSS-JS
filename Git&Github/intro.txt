@@ -1,0 +1,25 @@
+Git : Git is a software that needs to be download and installed in system. Git is a distributed version control system.
+Git is developed & Maintained by oracle
+Download & Install Git
+   i. goto "https://git-scm.com/downloads"
+   ii. download for specific OS --> 64 bit windows setup
+   iii. install  (next until finish)
+   iv. goto "cmd" and type "git -v"
+
+How to use git?
+   i. Goto VSCode --> terminal ---> new terminal --> command prompt
+   ii. git init
+   iii. git add .
+   iv. git commit -m "message"
+
+   for first time use, git config --global user.name "yourusername"
+   git config --global user.email "ur email id of github account"
+
+   again do step iii and iv.
+
+   github commands:
+   i. goto github.com and create an account
+   ii. git remote add origin "link(url+.git)"
+   iii. git push -u origin master/main 
+
+git branching:

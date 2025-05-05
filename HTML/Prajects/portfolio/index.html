@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="./Rajitha logo.png" alt="logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="backToTop">
+            <button>
+                <a href="#banner"><i class="fa-solid fa-arrow-up"></i></a>
+            </button>
+        </section>
+        <section id="banner">
+            <div class="bannerleft">
+                <h1>Hi,Hello Everyone 👋🏻. I'm <br><span>FULL STACK JAVA DEVELOPER</span></h1>
+                <p>This is Rajitha Gugloth. I'm Interested to develop creative web projects using <b>HTML</b>,<b>CSS</b>,<b>Javascript</b> and <b>React</b></p>
+                <div class="buttons">
+                    <button>Contact Me</button>
+                    <button>Download My Resume</button>
+                </div>
+            </div>
+            <div class="bannerRight">
+                <img src="./Photo IMG_20240709_202928 (1)_11zon.jpg" alt="profile Photo">
+              <!-- <script src="https://unpkg.com/@dotlottie/player-component@2.7.12/dist/dotlottie-player.mjs" type="module"></script>
+ <dotlottie-player src="https://lottie.host/05991737-b368-4150-8a93-c5e885a7bb5a/DxZLfQp0lP.lottie" background="transparent" speed="1" loop autoplay></dotlottie-player>
+            -->
+             </div>
+        </section>
+        <h2 class="heading">ABOUT</h2>
+        <section id="about">
+            <img src="https://img.freepik.com/free-photo/celebration-labour-day-with-3d-cartoon-portrait-working-woman_23-2151306545.jpg?t=st=1744214792~exp=1744218392~hmac=860d28d8d8e53882363fe645fcfae1441c753ca185c1e96bd3c23c1e4de566a8&w=1380"" alt="image">
+            <div>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatem nostrum necessitatibus quam illo sapiente, neque sit ipsam. Reprehenderit aliquam vitae possimus doloremque. Possimus, veniam. Error illum iusto deleniti officiis dignissimos, inventore eligendi, qui quas reprehenderit aperiam similique quo accusantium animi reiciendis at? Eum similique quibusdam eaque numquam vero impedit quod?</p>
+                <div class="details">
+                    <div class="education">
+                        <ul>
+                            <li>
+                                <strong>B.Tech</strong>-Affilated to JNTUH , MIETW - Ghatkesar , Year of Passout : 2025 -
+                                <b>75.3%</b>
+                            </li>
+                            <li><strong>Intermediate</strong>-New Sri Chaitanya Jr College-Hyderabad , 2021 with aggregate -
+                                <b>94.6%</b>
+                            </li>
+                            <li><strong>S.S.C</strong>-KGBV - Lingampet,Kamareddy , 2019 with aggregate -
+                                <b>98%</b>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="strengths">
+                        <h3>Strengths:</h3>
+                        <p>
+                            <ul>
+                                <li>
+                                    Decision Making Skills
+                                </li>
+                                <li>
+                                    Communication Skills
+                                </li>
+                                <li>Probelm solving Skills</li>
+                            </ul>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <h2 class="heading">SKILLS</h2>
+        <section id="skills">
+            <div class="image"><img src="data:image/png;base64,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" alt="Java"></div>
+            <div class="image"><img src="https://www.w3docs.com/uploads/media/book_gallery/0001/02/ea50fd5ac033ccb1ab19a9aa4f1135464bbc1399.png" alt="img"></div>
+            <div class="image"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Official_CSS_Logo.svg/1200px-Official_CSS_Logo.svg.png" alt="CSS"></div>
+            <div class="image"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Ball_python_lucy.JPG/640px-Ball_python_lucy.JPG" alt="Python"></div>
+            <div class="image"><img src="https://www.computerhope.com/jargon/j/javascript.png" alt="JS"></div>
+            <div class="image"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png" alt="React"></div>
+            <div class="image"><img src="https://5.imimg.com/data5/SELLER/Default/2022/7/FT/WW/IM/7756102/oracle-database-enterprise-edition-license-1-processor.png" alt="Oracle"></div>
+            <div class="image"><img src="https://stage.digilabs.ai/wp-content/uploads/2023/10/C.png" alt="c&c++"></div>
+        </section>
+        <h2 class="heading">PROJECTS</h2>
+         <section id="projects">
+            <div class="project">
+                <img src="https://www.visily.ai/wp-content/uploads/2024/05/thumbnail-ai-chatbot-website-wireframe-template-1200x675.png" alt="AI CHATBOT">
+                 <h2>AI CHATBOT</h2>
+                 <button><a href="https://tara-ai.netlify.app/" target="_blank">Live Demo</a></button>
+            </div>
+            <div>
+                <div class="project">
+                    <img src="https://imgproxy.epicpxls.com/-BTnprLiQwtOltoiy98t94q0MVD_-8_bhJwvtWS5dMo/rs:fill:800:600:0/g:no/aHR0cHM6Ly9pdGVt/cy5lcGljcHhscy5j/b20vdXBsb2Fkcy9w/aG90by8wNWRkNmI1/NzliZGY3OTNjMTRl/NWY1NDFhOWFhNGEz/NA.jpg" alt="OTT">
+                    <h2>OTT Website</h2>
+                    <button><a href="">Live Demo</a></button>
+                </div>
+                <div class="project">
+                    <img src="https://design4users.com/wp-content/uploads/2021/03/web-design-ecommerce.png" alt="Ecommerce">
+                    <h2>Ecommerce</h2>
+                    <button><a href="">Live Demo</a></button> 
+                </div>
+            </div>
+         </section>
+         <h2 class="heading">CONTACT</h2>
+         <section id="contact">
+            <h2>Contact me for Freelancing or any other Queries</h2>
+             <h3><a href="">guglothrajitah@gmail.com</a></h3>
+             <div class="icons">
+                 <i class="fa-brands fa-github"></i>
+                 <i class="fa-brands fa-linkedin"></i>
+                 <i class="fa-brands fa-x-twitter"></i>
+                 <i class="fa-brands fa-facebook-f"></i>
+                 <i class="fa-brands fa-instagram"></i>
+             </div>
+         </section>
+    </main>
+    <footer>
+        <hr>
+        <p>This site belongs to Rajitha Gugloth; 2025</p>
+    </footer>
+</body>
+</html>

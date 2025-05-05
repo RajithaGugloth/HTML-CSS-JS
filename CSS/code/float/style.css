@@ -1,0 +1,80 @@
+.box{
+    height: 50px;
+    width: 50px;
+    background-color: rgb(233, 21, 21);
+    margin: 10px;
+}
+.box2>div>p{
+    color: white;
+    font-size: 48px;
+}
+.box2 p{
+    color: white;
+   font-size: 48px;
+}
+.box2+p{
+    color: rgb(4, 1, 1);
+    font-size: 48px; 
+ }
+ div+p::first-letter{
+    color: red;
+    font-size: 96px;
+}
+/*div+p::before{
+    content: "\201c";
+    font-size: 96px;
+    color: green;
+}
+div+p::after{
+    content:"\201d";
+   font-size: 96px;
+   color: red;
+}*/
+.box:hover{
+    height: 50;
+    width: 50px;
+    background-color: red;
+    transform: scale(1.5);
+}
+a:link{
+    color: red;
+}
+a:active{
+    color: red;
+}
+a:visited{
+    color: violet;
+}
+/*input:required
+ {
+   border: 1px solid red;
+ }*/
+ input:optional{
+    border: 1px solid green;
+}
+input:disabled
+{
+  border: 1px solid red;
+}
+input:enabled{
+    border: 1px solid green;
+}
+input:empty{
+    background: yellow;
+}
+input:focus{
+    outline: 2px solid green;
+ }
+ .child{
+    height: 50px;
+    width: 50px;
+    background-color: red;
+    margin: 10px;
+    color: white;
+}
+/*.child:nth-last-child(4){
+    background-color: green;
+}*/
+#box>p:nth-of-type(2){
+    background-color: green;
+ }

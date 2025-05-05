@@ -1,0 +1,12 @@
+.t1
+{
+    width: 400px;
+    height: 50px;
+    background-color: yellow;
+    text-align: center;
+    border: 3px solid red;
+}
+.t1:hover
+{
+    transform: scale(90eg);
+}
